@@ -1,0 +1,17 @@
+#include<stdio.h>    
+#include<string.h>
+int main()
+{
+    char str1[10],str2[10];
+    printf("enter password:");
+    fgets(str1,sizeof(str1),stdin);
+    puts(str1);
+    printf("remember password:");
+    fgets(str2,sizeof(str2),stdin);
+    puts(str2);
+    strcmp(str1,str2);
+    int result=strcmp(str1,str2);
+    printf("strcmp(str1,str2)is %d",result);
+    return 0;
+    
+}
