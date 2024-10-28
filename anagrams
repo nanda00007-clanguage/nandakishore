@@ -9,7 +9,7 @@ char sortstring(char str[6])
 {
     for(int j=i+1;j<6;j++)
     {
-        if (str[i]>str[j])
+        if (str[i]<str[j])
         {
             temp=str[i];
             str[i]=str[j];
